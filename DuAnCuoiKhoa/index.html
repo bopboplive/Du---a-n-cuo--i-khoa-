@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>bopboplive</title>
   <link rel="stylesheet" href="./styles/navbar.css">
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/pogo-slider.min.css">
 </head>
 <body>
+
   <div class="navbar">
     <div class="upper-navbar">
       <a href="./index.html">
@@ -21,11 +23,15 @@
         <div>
 
           <div class="drop">
-            <a href="#">Home</a>
+            <a class="button" href="#">Home</a>
           </div>
 
           <div class="drop">
-            <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+            <a class="button" href="#">About us</a>
+          </div>
+
+          <div class="drop">
+            <a class="button" href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
             <!-- <div class="list">
               <a class="list-child" href="#"></a>
               <a class="list-child" href="#"></a>
@@ -34,15 +40,11 @@
           </div>
 
           <div class="drop">
-            <a href="#">About us</a>
-          </div>
-
-          <div class="drop">
-            <a href="./contact.html">Contact</a>
+            <a class="button" href="#">Contact</a>
           </div>
             
           <div class="drop">
-            <a href="./register"><i class="fa-solid fa-user"></i></a>
+            <a class="button" href="./sign-up.html"><i class="fa-solid fa-user"></i></a>
           </div>
 
         </div>
@@ -50,9 +52,29 @@
     </div>
   </div>
 
-  <div>
-    <img id="merry-christmas" src="./imgs/merry-christmas.png" alt="">
+  <div class="container">
+    <div class="gallery-display-area">
+      <div class="gallery-wrap">
+        <div class="image">
+          <img id="merry-christmas" src="./imgs/merry-christmas.png" alt="">
+        </div>
+        <!-- <div class="image">
+          <img id="santa" src="./imgs/santa.png" alt="">
+        </div> -->
+      </div>
+    </div>
   </div>
   
+
+
+
+
+
+
+
+
+
+
+  <script src="./scripts/slider-index.js"></script>
 </body>
 </html>
