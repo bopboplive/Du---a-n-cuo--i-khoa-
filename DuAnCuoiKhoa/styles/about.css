@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-image: url(../imgs/background-about.png);
+    background-repeat: no-repeat center;
+    background-size: 100%;
+}
+
+#about {
+    margin-left: 600px;
+}
+
+.form-about {
+    margin-top: 150px;
+}
+
+#bopboplive {
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+}

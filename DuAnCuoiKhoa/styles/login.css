@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-image: url(../imgs/merry-chrismass-2022-01.jpeg);
+    background-repeat: no-repeat center;
+    background-size: 100%;
+    max-height: 100vh;
+}
+
+#santa-login {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    margin-top: 18px;
+    margin-left: 230px;
+}
+
+#village-christmas {
+    position: absolute;
+    width: 345px;
+    height: 200px;
+    margin-top: 270px;
+    margin-left: 108px;
+}
+
+.wrapper {
+    max-width: 360px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 38px 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.wrapper-heading {
+    padding-left: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 50px;
+    padding-left: 15px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.input__field {
+    padding: 5px;
+    position: relative;
+}
+
+#username {
+    width: 290px;
+    height: 40px;
+}
+
+#password {
+    width: 290px;
+    height: 40px;
+}
+
+.register-link {
+    color: #000;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 70px;
+    height: 30px;
+    float: right;
+    border-radius: 50px;
+    border: none;
+    margin-right: 2px;
+}
+
+#button:hover {
+    background-color: chartreuse;
+    font-size: 14px;
+    border: none;
+    transition: 3s;
+}

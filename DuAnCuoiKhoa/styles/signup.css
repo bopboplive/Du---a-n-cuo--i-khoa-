@@ -7,23 +7,26 @@
 }
 
 body {
-    background-image: url(../imgs/santa.png);
-    background-repeat: no-repeat;
-    background-size: 100% 170%;
+    background-image: url(../imgs/background-signup.png);
+    background-repeat: no-repeat center;
+    background-size: 100%;
+    /* max-height: 100vh;  */
 }
 
 #reindeer {
     width: 100px;
     height: 100px;
     position: absolute;
-    margin-left: 60px;
+    margin-left: 470px;
+    user-select: none;
 }
 
 #falling-snow {
     position: absolute;
     width: 430px;
     height: 200px;
-    margin-left: 28px;
+    margin-left: 434px;
+    user-select: none;
 }
 
 #pine-tree {
@@ -31,16 +34,20 @@ body {
     width: 280px;
     height: 90px;
     margin-top: 291px;
-    margin-left: 18px;
+    margin-left: 430px;
+    user-select: none;
 }
 
 .wrapper {
     max-width: 400px;
     height: 380px;
     background-color: rgba(255, 0, 0, 0.5);
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
+    user-select: none;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .wrapper-heading {
@@ -51,6 +58,11 @@ body {
 
 .input__field {
     padding: 5px;
+    position: relative;
+}
+
+form {
+    padding: 0px 0px 0px 18px;
 }
 
 input {
@@ -65,27 +77,27 @@ input {
 }
 
 #firstName {
-    width: 190px;
+    width: 170px;
     height: 40px;
 }
 
 #lastName {
-    width: 190px;
+    width: 170px;
     height: 40px;
 }
 
 #email {
-    width: 390px;
+    width: 350px;
     height: 40px;
 }
 
 #password {
-    width: 390px;
+    width: 350px;
     height: 40px;
 }
 
 #confirmPassword {
-    width: 390px;
+    width: 350px;
     height: 40px;
 }
 
@@ -97,15 +109,16 @@ input {
 
 #button {
     width: 100px;
-    height: 50px;
+    height: 40px;
     float: right;
     border: none;
     border-radius: 50px;
+    margin-right: 25px;
 }
 
 #button:hover {
     background-color: chartreuse;
     font-size: 16px;
     border: none;
-    transition: 5s;
+    transition: 3s;
 }

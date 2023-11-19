@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.lower-navbar > div > div {
+.lower-navbar>div>div {
     display: flex;
     float: right;
     margin: 0px 100px;
@@ -34,7 +34,7 @@
     font-size: 18px;
     font-family: sans-serif;
     margin: 0px 10px;
-    float: right;
+    /* float: right; */
 }
 
 #logonavbar {
@@ -56,9 +56,58 @@
     background: transparent;
     font-size: 25px;
     transition: .3s;
-  }
+}
 
 .button:hover {
+    color: white;
+    background: #dc2020;
+    border-radius: 0 15px;
+}
+
+.drop {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 21px;
+    margin-left:30px;
+    border-radius: 0 15px;
+    background-color: #dc2020;
+  }
+
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .drop:hover .dropdown-content {
+    display: block;
+  }
+
+  .drop:hover .dropbtn {
+    background-color: #dc2020;
+  }
+
+.dropbtn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    color: black;
+    background: transparent;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.dropbtn:hover {
     color: white;
     background: #dc2020;
     border-radius: 0 15px;
