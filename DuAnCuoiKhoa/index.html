@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/pogo-slider.min.css">
-</head>
+  <link rel="stylesheet" href="./styles/contact.css">
+</head> 
 <body>
 
   <div class="navbar">
@@ -31,7 +32,7 @@
           </div>
 
           <div class="drop">
-            <a class="dropbtn" href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+            <a class="dropbtn" href="#shop">Shop <i class="fa-solid fa-chevron-down"></i></a>
               <div class="dropdown-content">
                   <a class="list-child" href="#">list1</a>
                   <a class="list-child" href="#">list2</a>
@@ -40,7 +41,7 @@
           </div>
 
           <div class="drop">
-            <a class="button" href="#">Contact</a>
+            <a class="button" href="#contact">Contact</a>
           </div>
             
           <div class="drop">
@@ -65,6 +66,36 @@
     </div>
   </div>
   
+  <br>
+  <br>
+
+  <div id="shop" class="trinhbaysanpham">
+    <div class="sanphamshop">
+      <img id="sanpham1" src="./imgs/trang phuc ao khoac noel tre em trang.jpeg" alt="">
+      <h3>trang phục tuần lộc trẻ em dễ thương</h3>
+      <p><b>100$</b></p>
+    </div>
+
+    <div class="sanphamshop">
+      <img id="sanpham1" src="./imgs/trang phuc ao khoac noel tre em.jpeg" alt="">
+      <h3>trang phục tuần lộc trẻ em dễ thương</h3>
+      <p><b>100$</b></p>
+    </div>
+
+    <div class="sanphamshop">
+      <img id="sanpham1" src="./imgs/trang phuc nguoi lun.jpeg" alt="">
+      <h3>trang phục váy noel cho bé gái</h3>
+      <p><b>100$</b></p>
+    </div>
+
+    <div class="sanphamshop">
+      <img id="sanpham1" src="./imgs/trang phuc nguoi lun.jpeg" alt="">
+      <h3>trang phục váy noel cho bé gái</h3>
+      <p><b>100$</b></p>
+    </div>
+
+  </div>
+
   <br>
   <br>
 
@@ -96,11 +127,73 @@
   </div>
 
 
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+  <div id="contact">
+    <div class="form-contact">
+      <div class="contact-us">
+        <h1 id="contact-h1">Contact</h1>
+        <div class="boc-2-phan">
+          <div class="contact-input">
+            <div class="row-name-email">
+              <input id="name" type="text" placeholder="Your Name">
+              <input id="email" type="text" placeholder="Your Email" >
+            </div>  
+              <input id="number" type="number" placeholder="Your number">
+              <input id="message" type="text" placeholder="Your Message">
+
+              <button id="contact-button" type="submit">send message</button>
+          </div>
+
+          <div class="contact-icon">
+            <div class="contact-icon-1">
+              <div>
+                <i id="contact-icon" class="fa-solid fa-location-arrow"></i>
+              </div>
+
+              <div>
+                <h4>Address</h4>
+                <p id="contact-write">Song Phuong - Hoai Duc - Ha Noi</p>
+              </div>
+            </div>
+
+            <div class="contact-icon-1">
+              <div>
+                <i id="contact-icon" class="fa-solid fa-envelope"></i>
+              </div>
+
+              <div>
+                <h4>Email</h4>
+                <p id="contact-write">ntunganh1912@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-icon-1">
+              <div>
+                <i id="contact-icon" class="fa-solid fa-phone"></i>
+              </div>
+
+              <div>
+                <h4>Phone Number</h4>
+                <p id="contact-write">0123456789</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
 
 
-  <script src="./scripts/slider-index.js"></script>
+
 </body>
 </html>

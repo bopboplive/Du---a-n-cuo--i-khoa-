@@ -1,0 +1,109 @@
+.contact-us {
+    background-color: rgb(241, 241, 241);
+    height: 500px;
+    padding: 30px 70px;
+    text-align: center!important;
+}
+
+#contact-h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+    color: #ec2222;
+}
+
+input {
+    display: grid;
+    margin-bottom: 15px;
+    background: #b2b2b2;
+}
+
+.row-name-email {
+    display: flex;
+} 
+
+#name {
+    width: 310px;
+    height: 50px;
+    margin-right: 25px;
+    padding-left: 20px;
+}
+
+#email {
+    width: 310px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+#number {
+    width: 637px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+#message {
+    width: 637px;
+    height: 150px;
+    padding-left: 20px;
+    padding-bottom: 90px;
+    display: block;
+}
+
+.contact-input {
+    width: 637px;
+    height: 371px;
+}
+
+#contact-button {
+    height: 45px;
+    font-size: 14px;
+    color: rgb(90, 89, 89);
+    padding: 0 20px;
+    text-transform: uppercase;
+    background-color: #b2b2b2;
+    transition: .3s;
+}
+
+#contact-button:hover {
+    background-color: #e91327;
+    border-radius: 0 15px;
+    color: #fff;
+}
+
+
+.boc-2-phan {
+    display: flex;
+}
+
+.contact-icon {
+    margin-left: 50px;
+}
+
+.contact-icon-1 {
+    display: flex;
+    padding-bottom: 45px;
+}
+
+#contact-icon {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 25px;
+    margin-right: 15px;
+    color: #fff;
+    border-radius: 100%;
+    background: #e91327;
+}
+
+h4 {
+    margin-right: 200px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #f80019;
+}
+
+#contact-write {
+    float: left;
+    background: transparent;
+}
