@@ -1,0 +1,41 @@
+.footer {
+    background-color: rgb(207, 207, 207);
+    height: 400px;
+}
+
+.bocformfooter {
+    display: flex;
+    padding-top: 50px;
+}
+
+#footer-img1 {
+    width: 400px;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.footer-icon-1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#footer-icon {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #fff;
+    border-radius: 100%;
+    background: #e91327;
+}
+
+#footer-write {
+    float: left;
+    background: transparent;
+}
+
+.footer-about {
+    margin-left: 300px;
+}
