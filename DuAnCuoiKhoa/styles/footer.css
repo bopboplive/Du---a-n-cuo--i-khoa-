@@ -1,6 +1,8 @@
 .footer {
     background-color: rgb(207, 207, 207);
-    height: 400px;
+    height: 430px;
+    border-top: 30px solid rgb(150, 150, 150);
+    border-bottom: 30px solid rgb(150, 150, 150);
 }
 
 .bocformfooter {
@@ -38,4 +40,27 @@
 
 .footer-about {
     margin-left: 300px;
+}
+
+.iconlienhe {
+    display: flex;
+    gap: 45px;
+}
+
+#footer-lienhe {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #fff;
+    border-radius: 100%;
+    background: #979797;
+    transition: 2s;
+}
+
+#footer-lienhe:hover {
+    background: #fff;
+    color: #000;
 }
